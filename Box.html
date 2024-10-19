@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>webpage</title>
+  </head>
+  <style>
+    header{
+      background-color:black;
+      color:white;
+      padding:20px 0;
+      text-align:center;
+    }
+    .page{
+     font-size:30px;
+    }
+    *{
+      text-decoration:none;
+    }
+    nav{
+      background-color:grey;
+      width:100%;
+      position:absolute;
+      text-align:center;
+      
+    }
+     nav ul{
+     display:inline-block;
+       list-style:none;
+    }
+  nav ul li{
+      display:inline-block;
+     color:white;
+     margin-right:20px;
+  
+    }
+  nav ul li a{
+     display:block;
+     padding:13px 19px;
+    }
+    .main-content{
+      height:150px;
+      width:100px;
+      margin:50px 0px;
+    }
+    .sidebar{
+      width:250px;
+      height:200px;
+      background-color: gold;
+      float:left;
+    }
+    .link{
+      text-decoration: underline;
+    }
+   
+    .position_relative{
+    width:900px;
+      height:300px;
+      position:relative;
+      left:300px;
+      bottom:180px;
+    }
+    .container{
+      border:1px solid black;
+      background-color:lightgrey;
+      margin:20px;
+      padding:10px;
+    }
+    .auto{
+      background-color:lightgoldenyellow;
+      height:150px;
+      width:600px;
+      padding:20px;
+      overflow:auto;
+      border: 1px solid black;
+    }
+    .box1{
+      width:150px;
+      height:150px;
+      background-color:red;
+      position:absolute;
+      top:200px;
+      left:450px;
+      z-index: 1;
+    }
+    .box2{
+      width:150px;
+      height:150px;
+      background-color:blue;
+      position:absolute;
+      z-index :2;
+      top:260px;
+      left:550px;
+    }
+    footer{
+      background-color:black;
+      color:white;
+      height:40px;
+      width:800px;
+      text-align:center;
+      font-size:30px;
+    }
+  </style>
+<body>
+  <header>
+    <h1 class="page">My Webpage</h1>
+    <nav>
+      <ul>
+        <a href="#"><li>Home</li>
+          <a href="#"><li>About</li>
+            <a href="#"><li>Services</li>
+              <a href="#"><li>Contact</li>
+                </ul>
+              </nav>
+                 </header>
+          <section class="main-content">
+            <main>  
+              <div class="sidebar">
+              <h3>This is the sidebar menu</h3>
+                    <ul class="link">
+  <li><a href="#home">Link 1</a></li>
+  <li><a href="#news">Link 2</a></li>
+  <li><a href="#contact">Link 3</a></li>
+ 
+</ul>
+            </div>
+            </main>
+              </section>
+              <div class="position_relative">
+                 <h3>This is the box model<h3>
+              <div class="auto">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dolores tempora dolore laboriosam perspiciatis magnam quidem. Ut odit quo, similique deserunt assumenda maxime sunt minus vero, eligendi magni consequuntur omnis est ratione optio numquam cumque eaque incidunt nesciunt. Veniam placeat officia hic quod suscipit in asperiores esse, molestiae dolore cum, ea quis, recusandae a quo porro sint eius rem molestias.
+  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates eum aperiam inventore dicta eos possimus ad totam? Quia, facere voluptatem! Sit distinctio doloribus ipsam iste neque minima, commodi quis dolor.
+                one optio numquam cumque eaque incidunt nesciunt. Veniam placeat officia hic quod suscipit in asperiores esse, molestiae dolore cum, ea quis, recusandae a quo porro sint eius rem molestias.
+
+              </div>
+              </div>
+              <div class="box1"></div>
+                   <div class="box2"></div>
+                   <footer>
+                     <p>&copy 2024 My-Webpage</p>
+                   </footer>
+</body>
+</html>
