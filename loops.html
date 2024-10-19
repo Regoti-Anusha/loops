@@ -39,13 +39,13 @@ let num1 = 2;
 let isPrime;
 while (num1 <= 20) {
     isPrime = true; 
-    let i = 2;
-    while (i < num1) {
-        if (num1 % i === 0) {
+    let p = 2;
+    while (p < num1) {
+        if (num1 % p === 0) {
             isPrime = false;
             break;
         }
-        i++;
+        p++;
     }
     if (isPrime) {
         console.log('The prime Numbers from 1 to 20 are:',num1);
