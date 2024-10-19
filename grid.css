@@ -1,0 +1,30 @@
+.grid-container{
+    display: grid;
+    grid-template-areas: 'Item1 Item1 Item1' 'Item2 Item3 Item3' 'Item2 Item4 Item5' 'Item2 Item6 Item6';
+    height: 600px;
+    width: 800px;
+}
+.Item1{
+    grid-area: Item1;
+}
+.Item2{
+    grid-area:Item2;
+}
+.Item3{
+    grid-area: Item3;
+}
+.Item4{
+    grid-area: Item4;
+}
+.Item5{
+    grid-area: Item5;
+}
+.Item6{
+    grid-area: Item6;
+}
+.grid{
+    border: 2px solid black;
+    text-align: center;
+    padding: 30px;
+    margin: 2px;
+}
