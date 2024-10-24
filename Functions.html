@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Functions</h3>
+    <p>1. Functions Without Parameters</p>
+    <p>2. Functions With Parameters</p>
+    <p>3. Functions With Return Statement</p>
+    <p>4. Combining Functions</p>
+    <p>5. Default Parameters</p>
+
+</body>
+<script>
+// 1. Write a function named `greet` that prints "Hello, World!" to the console.
+function Greet(){
+      
+    console.log("Hello World!")
+}
+Greet()                                       //  Calling the `greet` function to ensure it works as expected.
+
+
+//2. Write a function named `addNumbers` that takes two parameters, `a` and `b`.
+function addNumbers(a,b){
+
+    console.log('sum of a and b is:',a+b)      // Inside the function, print the sum of `a` and `b`.
+}
+addNumbers(4,5)                                
+
+
+//3. Write a function named `multiply` that takes two parameters, `x` and `y`.
+function multiply(x,y){
+
+    return x*y                                    // Inside the function, return the product of `x` and `y`.
+}
+console.log('product of x and y is:',multiply(5,6)) 
+
+
+//4.  Write a function named `calculateRectangleArea` that takes two parameters, `length` and `width`.
+
+function calculateRectangleArea(length,width){
+
+    return length*width
+}
+console.log('Area of rectangle is:',calculateRectangleArea(5,8)) 
+
+
+//5.  Write a function named `greetUser` that takes one parameter, `name`, with a default value of "Guest".
+
+function greetUser(name='Guest'){
+    return `Hi ${name}`
+   }
+   console.log(greetUser())
+   console.log(greetUser('Abhi'))
+</script>
+</html>
